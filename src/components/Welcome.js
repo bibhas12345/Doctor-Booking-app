@@ -86,7 +86,7 @@ const Welcome = () => {
                         </div>
                         <div className='m-2 flex flex-col justify-evenly items-center shadow-md shadow-gray-300 p-2 '>
                             <FaCarSide className='text-2xl text-sky-300' />
-                            <p>Ambolence</p>
+                            <p>Ambulance</p>
                         </div>
                     </div>
 
