@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './components/Login';
+import Welcome from './components/Welcome';
+import Skin from './components/Skin';
+import Dental from './components/Dental';
+import Eye from './components/Eye';
+import Heart from './components/Heart';
+import Kidney from './components/Kidney';
+import Lungs from './components/Lungs';
+import Liver from './components/Liver';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Login />} />
+        <Route path='/welcome' element={<Welcome />} />
+        <Route path='/body/skin' element={<Skin />} />
+        <Route path='/body/Dental' element={<Dental />} />
+        <Route path='/body/eye' element={<Eye />} />
+        <Route path='/body/heart' element={<Heart />} />
+        <Route path='/body/kidney' element={<Kidney />} />
+        <Route path='/body/lungs' element={<Lungs />} />
+        <Route path='/body/liver' element={<Liver />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
