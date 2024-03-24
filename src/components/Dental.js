@@ -58,7 +58,7 @@ export default function Dental() {
                 
                 
             </div>
-            <div className='flex flex-col ml-3 justify-center m-1 items-center mt-3 bg-gray-400 h-[200px] w-[180px]'>
+            <div className='flex flex-col ml-8 justify-center m-1 items-center mt-3 bg-gray-400 h-[200px] w-[180px]'>
                     <img className='rounded-full grayscale' style={{ height: 100, width: 100 }} src='https://img.freepik.com/free-photo/doctor-white-coat-using-digital-tablet-reading-medical-data-gadget-working-hospital-standin_1258-88112.jpg?size=626&ext=jpg&ga=GA1.1.890975536.1709918995&semt=sph' alt='/' />
                     <div className='flex flex-col justify-center items-center w-full'>
                         <p className='text-gray-600'>Dr.Pinky(BDS/MDS)</p>

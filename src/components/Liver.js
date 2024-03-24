@@ -58,7 +58,7 @@ export default function Kidney() {
 
 
       </div>
-      <div className='flex ml-3 flex-col m-1 justify-center items-center mt-3 bg-gray-400 h-[200px] w-[180px]'>
+      <div className='flex ml-8 flex-col m-1 justify-center items-center mt-3 bg-gray-400 h-[200px] w-[180px]'>
         <img className='rounded-full grayscale' style={{ height: 100, width: 100 }} src='https://img.freepik.com/free-photo/portrait-hansome-young-male-doctor-man_171337-5068.jpg?size=626&ext=jpg&ga=GA1.1.890975536.1709918995&semt=sph' alt='/' />
         <div className='flex flex-col justify-center items-center w-full'>
           <p className='text-gray-600'>Dr.Sharma(MBBS/MD)</p>
