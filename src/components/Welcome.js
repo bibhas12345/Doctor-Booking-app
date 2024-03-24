@@ -53,12 +53,12 @@ const Welcome = () => {
             <div>
                 <div>
 
-                    <div className='bg-emerald-600 h-[220px] flex flex-col rounded-bl-3xl rounded-br-3xl justify-center items-center'>
+                    <div className='bg-sky-900 h-[220px] flex flex-col rounded-bl-3xl rounded-br-3xl justify-center items-center'>
 
                         <div className='mt-[59px] '>
                             <h2 className='ml-8 text-2xl font-bold text-white'>Find Doctor For ??</h2>
                             {/* Search Bar */}
-                            <form className='bg-emerald-600' onSubmit={handleSearchSubmit}>
+                            <form className='bg--sky-900' onSubmit={handleSearchSubmit}>
                                 <input className='border-2 rounded-full border-blue-400 shadow-md shadow-gray-800 h-[47px] m-2 mt-3 p-2 w-[300px]'
                                     type='text'
                                     placeholder='Search body parts...'
@@ -111,28 +111,28 @@ const Welcome = () => {
                             dotListClass="custom-dot-list-style"
                         // itemClass="carousel-item-width-1000-px"
                         >
-                            <div className='bg-emerald-200 flex p-2 justify-evenly h-35'>
+                            <div className='bg-sky-200 flex p-2 justify-evenly h-35'>
                                 <img className='h-20 w-20 rounded-full' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtW0o_Sr62KBhzXkgtyTyobTfHYQvX_4AQMQ&usqp=CAU' alt='/' />
                                 <div>
                                     <p className='font-bold text-2xl text-gray-700'>Dr.Aman(Eye specialist)</p>
                                     <p>rating - ⭐⭐⭐⭐</p>
                                 </div>
                             </div>
-                            <div className='bg-emerald-200 flex p-2 justify-evenly h-29'>
+                            <div className='bg-sky-200 flex p-2 justify-evenly h-29'>
                                 <img className='h-20 w-20 rounded-full' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZeEzeqSeG5MwgQd6_tq3q66w-XrYcZ8lZZA&usqp=CAU' alt='/' />
                                 <div>
                                     <p className='font-bold text-2xl text-gray-700'>Dr.Priti(Heart specialist)</p>
                                     <p>rating - ⭐⭐⭐⭐</p>
                                 </div>
                             </div>
-                            <div className='bg-emerald-200 flex p-2 justify-evenly h-29'>
+                            <div className='bg-sky-200 flex p-2 justify-evenly h-29'>
                                 <img className='h-20 w-20 rounded-full' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtb060DQUEdqZ1susfsrFDR4rs0dg5l6dclg7FYmNCrCngJHC9Wqhigxb8l1ygZsiegd0&usqp=CAU' alt='/' />
                                 <div>
                                     <p className='font-bold text-2xl text-gray-700'>Dr.Roy(Eye specialist)</p>
                                     <p>rating - ⭐⭐⭐⭐</p>
                                 </div>
                             </div>
-                            <div className='bg-emerald-200 flex p-2 justify-evenly h-29'>
+                            <div className='bg-sky-200 flex p-2 justify-evenly h-29'>
                                 <img className='h-20 w-20 rounded-full' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl8tojHt_DQmb2VipaBxG7XfxZGent0PCaxg&usqp=CAU' alt='/' />
                                 <div>
                                     <p className='font-bold text-2xl text-gray-700'>Dr.Salini(Skin specialist)</p>
@@ -148,13 +148,13 @@ const Welcome = () => {
 
                     {/* Body Part Links */}
                     <p className='text-2xl text-gray-500 ml-4 mt-2'>Categories</p>
-                    <div className='flex flex-wrap m-3'>
+                    <div className='flex flex-wrap m-1 p-2 text-white bg-sky-800'>
                         <Link className='shadow-sm shadow-gray-400 p-2 px-6 m-3 flex' to='/body/skin'><MdFace5 className='m-1 text-red-400 h-6 w-7' />Skin</Link>
-                        <Link className=' p-2 px-4 m-3 shadow-sm shadow-gray-400 flex' to='/body/Dental'><FaPlus className='m-1 text-red-400 h-6 w-7' />Dental</Link>
-                        <Link className=' p-2 px-4 m-3 shadow-sm shadow-gray-400 flex' to='/body/eye'><FaRegEye className='m-1 h-6 text-red-400 w-7' />Eye</Link>
+                        <Link className=' p-2 px-2 py-5 m- shadow-sm shadow-gray-400 flex' to='/body/Dental'><FaPlus className='m-1 text-red-400 h-6 w-7' />Dental</Link>
+                        <Link className=' p-2 px-5 m-3 shadow-sm shadow-gray-400 flex' to='/body/eye'><FaRegEye className='m-1 h-6 text-red-400 w-7' />Eye</Link>
                         <Link className=' p-2 px-4 m-3 shadow-sm shadow-gray-400 flex' to='/body/heart'><GiHeartOrgan className='m-1 text-red-400 h-6 w-7' />Heart</Link>
-                        <Link className=' p-2 px-4 m-3 shadow-sm shadow-gray-400 flex' to='/body/kidney'><GiKidneys className='m-1 text-red-400 h-6 w-7' />Kidney</Link>
-                        <Link className=' p-2 px-4 m-3 shadow-sm shadow-gray-400 flex' to='/body/lungs'><BsFillLungsFill className='m-1 text-red-400 h-6 w-7' />Lungs</Link>
+                        <Link className=' p-2 px-3 m-3 shadow-sm shadow-gray-400 flex' to='/body/kidney'><GiKidneys className='m-1 text-red-400 h-6 w-7' />Kidney</Link>
+                        <Link className=' p-2 px-4 m-1  shadow-sm shadow-gray-400 flex' to='/body/lungs'><BsFillLungsFill className='m-1 text-red-400 h-6 w-7' />Lungs</Link>
                         <Link className=' p-2 px-4 m-3 shadow-sm shadow-gray-400 flex' to='/body/liver'><GiLiver className='m-1 h-6 w-7 text-red-400' />Liver</Link>
                     </div>
                 </div>
@@ -178,3 +178,7 @@ const Welcome = () => {
 };
 
 export default Welcome;
+
+
+
+

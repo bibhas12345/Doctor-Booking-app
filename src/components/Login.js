@@ -19,8 +19,8 @@ const Login = () => {
 
   return (
     <div className='bg-gray-200 h-[100%]'>
-      <p className=' bg-emerald-600 pt-5 px-3'><FaPlusCircle className='text-red-700 h-10 w-9'/></p>
-      <div className='bg-emerald-600 h-[560px] rounded-bl-full flex p-4  justify-center items-center'>
+      <p className=' bg-sky-700 pt-5 px-3'><FaPlusCircle className='text-red-700 h-10 w-9'/></p>
+      <div className='bg-sky-700 h-[560px] rounded-bl-full flex p-4  justify-center items-center'>
         <img className='ml-4' style={{ height: 300, width: 400 }} src={img1} alt='/' />
       </div>
       <div className='flex flex-col justify-center items-center w-full h-[100px]'>
@@ -33,3 +33,11 @@ const Login = () => {
 };
 
 export default Login;
+
+
+
+
+
+
+
+
