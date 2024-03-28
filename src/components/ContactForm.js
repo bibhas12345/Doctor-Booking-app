@@ -31,7 +31,7 @@ const ContactForm = () => {
                 <form onSubmit={handleSubmit}>
                     <div className='m-2'>
                         <label className='text-white font-bold' htmlFor='name'>Name:</label>
-                        <input className='rounded-full p-2 w-[250px] shadow-md shadow-gray-700'
+                        <input className='rounded-full p-2 w-[250px] ml-3 shadow-md shadow-gray-700'
                             type='text'
                             id='name'
                             name='name'
@@ -42,7 +42,7 @@ const ContactForm = () => {
                     </div>
                     <div className='m-2'>
                         <label className='text-white font-bold' htmlFor='email'>Email:</label>
-                        <input className='rounded-full p-2 w-[250px] shadow-md shadow-gray-700'
+                        <input className='rounded-full p-2 w-[250px] ml-4 shadow-md shadow-gray-700'
                             type='email'
                             id='email'
                             name='email'

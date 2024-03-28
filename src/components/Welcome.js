@@ -78,7 +78,7 @@ const Welcome = () => {
                         </div>
                         <div className='m-2 flex flex-col justify-evenly items-center shadow-md shadow-gray-300 p-2 '>
                             <FaPlus className='text-2xl text-red-400' />
-                            <p>Emergancy</p>
+                            <Link to='/body/Emergancy'>Emergancy</Link>
                         </div>
                         <div className='m-2 flex flex-col justify-evenly items-center shadow-md shadow-gray-300 p-2 '>
                             <BiSolidDonateBlood className='text-2xl text-rose-500' />
@@ -94,6 +94,7 @@ const Welcome = () => {
                     <div className='w-[100%] mt-2' >
                         <p className='ml-3 text-2xl text-gray-400 mb-3'>Recently Added</p>
                         <Carousel
+                        className='m-2'
                             swipeable={false}
                             draggable={false}
                             showDots={true}
@@ -109,7 +110,7 @@ const Welcome = () => {
                             removeArrowOnDeviceType={["tablet", "mobile"]}
                             //   deviceType={this.props.deviceType}
                             dotListClass="custom-dot-list-style"
-                        // itemClass="carousel-item-width-1000-px"
+                        // itemClass="carousel-item-padding-9-px"
                         >
                             <div className='bg-sky-200 flex p-2 justify-evenly h-35'>
                                 <img className='h-20 w-20 rounded-full' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtW0o_Sr62KBhzXkgtyTyobTfHYQvX_4AQMQ&usqp=CAU' alt='/' />

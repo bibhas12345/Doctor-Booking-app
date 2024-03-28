@@ -22,6 +22,7 @@ import Skin2 from './BookingComp/Skin2';
 import Lungs1 from './BookingComp/Lungs1';
 import Liver1 from './BookingComp/Liver1';
 import Kidney1 from './BookingComp/Kidney1';
+import Emergancy from './components/Emergancy';
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
         <Route path='/BookingComp/Lungs1' element={<Lungs1/>} />
         <Route path='/BookingComp/Liver1' element={<Liver1/>} />
         <Route path='/BookingComp/Kideny1' element={<Kidney1/>} />
+        <Route path='/body/Emergancy' element={<Emergancy/>}/>
       </Routes>
     </Router>
   );
